@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+        android:drawable="@color/cyan"/> <!-- pressed state -->
+    <item android:state_focused="true"
+        android:drawable="@color/cyan"/> <!-- focused state -->
+   <!-- <item>
+        <shape>
+            <stroke
+                android:color="@android:color/white"
+                android:width="1dp" />
+            <solid android:color="#66FFFFFF" />
+            <corners android:radius="3dip" />
+        </shape>
+    </item> --><!-- default state -->
+    <item>
+        <shape>
+            <stroke android:color="@android:color/white"
+                android:width="1dp" />
+            <solid android:color="#000000" />
+            <corners android:radius="3dip" />
+        </shape>
+    </item>
+</selector>

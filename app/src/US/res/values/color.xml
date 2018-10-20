@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ffd546</color>
+    <color name="primaryDark">#EAC441</color>
+    <color name="gray">#9b9b9b</color>
+    <color name="black_text">#212326</color>
+    <color name="app_text_color_secondary">#929292</color>
+    <color name="app_background">#FFF</color>
+    <color name="accent">#72A2D3</color>
+    <color name="accent_translucent">#BBDEFB</color>
+    <color name="border_color">#959595</color>
+    <color name="gray_button">#d7d7d7</color>
+    <color name="gray_text_color">#808080</color>
+    <color name="blue_button">#2A86EA</color>
+    <color name="green_button">#56E344</color>
+    <color name="orange_button">#FB8B1F</color>
+    <color name="green_dark_button">#65A21A</color>
+    <color name="orange_circular_button">#DAB828</color>
+    <color name="line_divider_color">#856D5B</color>
+    <color name="light_gray">#C3C3C3</color>
+    <color name="faint_gray">#E7E7E7</color>
+    <color name="tab_background">#EBEBEB</color>
+    <color name="dotted_line">#585858</color>
+    <color name="cyan">#33B5E5</color>
+    <color name="dark_gray">#414141</color>
+    <color name="pan_update">#094793</color>
+    <color name="club_net_surf">#FB541A</color>
+    <color name="cycle_comparison">#DF0048</color>
+    <color name="my_region">#56BBA1</color>
+    <color name="locate_sp">#B71C1C</color>
+    <color name="add_new_distributor">#2A86EA</color>
+    <color name="shop_online">#FB8B1E</color>
+    <color name="shop_online_new">#d2ae6d</color>
+    <color name="business_analytics">#65A219</color>
+    <color name="my_account">#2CA1D2</color>
+    <color name="action_reports">#744CAA</color>
+    <color name="prospector">#2ACFD4</color>
+    <color name="coreteam">#827717</color>
+    <color name="customer_support">#9de62b</color>
+    <color name="view_ptns">#98c454</color>
+    <color name="media_library">#4442CA</color>
+    <color name="media_library_tab_text">#0E0E52</color>
+    <color name="calling_target">#d7bc20</color>
+    <color name="help">#87837A</color>
+    <color name="settings">#453A38</color>
+    <color name="everday">#803c09</color>
+    <color name="table_list_header_color">#E34C16</color>
+    <color name="footer_table_background">#F0F0F0</color>
+    <color name="details_table_background">#C7C7C7</color>
+    <color name="table_header_background">#D7D7D7</color>
+    <color name="drawer_divider_color">#C1C1C1</color>
+    <color name="drawer_selected_color">#4DB4DB</color>
+    <color name="first_layer">#E1E9F1</color>
+    <color name="second_layer">#BCC4C8</color>
+    <color name="calling_target_header">#EBEBEB</color>
+    <color name="rectangle_gray_border">#B7B7B7</color>
+    <color name="calling_target_action_bar">#484848</color>
+    <color name="tab_text">#3B7F6E</color>
+    <color name="tab_text_dark">#316B5C</color>
+    <color name="app_background_gray">#E7E7E7</color>
+    <color name="cl_white">#FFFFFFFF</color>
+    <color name="speedo_meter_inner_background">#A19568</color>
+    <color name="speedo_meter_back">#EFE8C7</color>
+    <color name="speedo_meter_gray">#7F7F7F</color>
+    <color name="speedo_meter_gray_light">#969696</color>
+    <color name="media_background">#EEEEEE</color>
+    <color name="spinner_background">#F5F5F5</color>
+    <color name="star_filled_color">#F4BD32</color>
+    <color name="ba_header_text_color">#045407</color>
+    <color name="faint_green">#D6E3D9</color>
+    <color name="yellow_missed_900_bg">#FCE66E</color>
+    <color name="video_stream">#e7a537b9</color>
+    <!-- prospector -->
+    <color name="gary_text_color">#6B6B6B</color>
+    <color name="cl_black">#FF000000</color>
+    <color name="cl_blue">#d2ebf6</color>
+    <color name="cl_redish">#0983b9</color>
+    <color name="bonus_color">#FF40AE2D</color>
+    <color name="top_up">#ed1b24 </color>
+    <color name="fade_sp_top">#fbd1d3</color>
+    <!-- ibo -->
+    <!--<color name="cl_pink">#FFCA4294</color>-->
+    <color name="cl_pink">#B34B80</color>
+    <color name="cl_pink_dark">#A84b80</color>
+    <color name="cl_grey">#cccccc</color>
+    <color name="cl_grey_800">#424242</color>
+    <color name="cl_grey_700">#616161</color>
+    <color name="cl_grey_600">#757575</color>
+    <color name="cl_grey_500">#a3a3a3</color>
+    <color name="cl_grey_400">#BDBDBD</color>
+    <color name="cl_grey_300">#E0E0E0</color>
+    <color name="cl_grey_200">#EEEEEE</color>
+    <color name="NEFT">#36602e</color>
+    <color name="cat_bio">#0cb364</color>
+    <color name="sp_credit">#26808b</color>
+    <color name="cat_herbs">#006334</color>
+    <color name="cat_uiss">#545656</color>
+    <color name="cat_health">#015ea3</color>
+    <color name="cat_home_">#ed1b24</color>
+
+
+
+    <string-array name="broadcast_bg_colors">
+        <item>#C6DDC9</item>
+        <item>#FAD6D4</item>
+        <item>#A7E0EF</item>
+        <item>#FADFEC</item>
+        <item>#BFBAB2</item>
+        <item>#C9D3DE</item>
+        <item>#A6E1E3</item>
+        <item>#FFE0CB</item>
+        <item>#79D9EB</item>
+        <item>#BFC5DA</item>
+        <item>#E7D9E5</item>
+        <item>#FDF5BC</item>
+        <item>#E9F6F0</item>
+        <item>#DDDDC3</item>
+        <item>#D1C6DC</item>
+
+    </string-array>
+
+</resources>

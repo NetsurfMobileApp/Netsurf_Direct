@@ -1,0 +1,22 @@
+<resources>
+
+    <!--Advertise Activity -->
+    <string name="view_details">View Details</string>
+    <string name="skips">Skip</string>
+    <string name="watch_now">Watch Now</string>
+
+    <!--  Font names
+-->
+    <string name="font_roboto_regular">roboto_regular</string>
+    <string name="font_roboto_bold">roboto_bold</string>
+    <string name="font_roboto_medium">roboto_medium</string>
+    <string name="font_roboto_light">roboto_light</string>
+    <string name="font_roboto_thin">roboto_thin</string>
+    <string name="font_roboto_black">roboto_black</string>
+    <string name="font_roboto_condensed_light">roboto_condensed_light</string>
+    <string name="font_roboto_condensed_regular">roboto_condensed_regular</string>
+    <string name="font_roboto_condensed_bold">roboto_condensed_bold</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+</resources>

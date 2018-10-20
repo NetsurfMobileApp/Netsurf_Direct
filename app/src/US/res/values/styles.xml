@@ -1,0 +1,192 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/shop_online_new</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge
+        </item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+
+    <style name="IboTheme" parent="BaseTheme" />
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/cl_pink</item>
+        <item name="colorPrimaryDark">@color/cl_pink_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent_translucent</item> 
+    </style>
+
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="CustomTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="color">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+
+    <style name="textStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dip</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <!-- Note that there is no parent style or additional attributes specified. -->
+
+    <style name="MyRegionListTheme"></style>
+
+    <style name="MediaLibraryTheme"></style>
+
+
+    <style name="CycleComparisonListTheme"></style>
+
+    <style name="ClubNetSurfListTheme"></style>
+
+    <style name="MyAccountListTheme"></style>
+
+    <style name="BusinessAnalyticsListTheme"></style>
+
+    <style name="ProspectorTheme"></style>
+
+    <style name="ActionReportTheme"></style>
+
+    <style name="CustomerSupportTheme"></style>
+
+<!--
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/cl_white</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/cl_white</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+-->
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/faint_gray</item>
+
+    </style>
+
+    <style name="myPopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/cl_black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- rating bar style -->
+   <!-- <style name="StarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+        <item name="android:minHeight">@dimen/star_height</item>
+        <item name="android:maxHeight">@dimen/star_height</item>
+    </style>-->
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/cl_grey_500</item>
+        <item name="colorControlActivated">@color/cl_pink</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/primary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/gray_text_color</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/gray_text_color</item>
+    </style>
+
+
+
+    <style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="stockEditTextRectangle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_weight">0.6</item>
+        <item name="android:textColor">@color/cl_grey_800</item>
+        <item name="android:textColorHint">@color/material_blue_grey_800</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="ThemeOverlay.AccentSecondary" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="UpdateHostFragmentTitleText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="fragment_update_stock_item_editTextStyle" parent="stockEditTextRectangle">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

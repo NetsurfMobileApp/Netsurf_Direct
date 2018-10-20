@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewFont">
+        <attr name="font_custom" format="string"/>
+    </declare-styleable>
+
+    <!--
+        <declare-styleable name="TextViewFont_font">
+            <attr name="font" format="string"/>
+        </declare-styleable>-->
+
+    <declare-styleable name="SpeedometerView">
+        <attr name="maxSpeed" format="float"/>
+        <attr name="speed" format="float"/>
+        <attr name="labelTextSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

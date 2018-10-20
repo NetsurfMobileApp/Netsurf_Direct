@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/gray_text_color">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray_text_color"/>
+            <padding
+                android:bottom="@dimen/eight"
+                android:left="@dimen/eight"
+                android:right="@dimen/eight"
+                android:top="@dimen/eight"/>
+        </shape>
+    </item>
+
+    <!-- to create border -->
+    <item>
+        <inset android:insetTop="1dp">
+            <shape android:shape="rectangle">
+                <solid
+                    android:color="@color/spinner_background"/>
+            </shape>
+        </inset>
+    </item>
+
+
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black_text"/>
+        </shape>
+    </item>
+</ripple>
